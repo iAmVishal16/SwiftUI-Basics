@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, world! @iamvishal16")
         }
         .padding()
     }
@@ -21,4 +21,16 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+}
+
+struct MainView: View {
+    var body: some View {
+        HStack {
+            Text("Hello, Main!")
+        }
+    }
+}
+
+#Preview {
+    MainView()
 }

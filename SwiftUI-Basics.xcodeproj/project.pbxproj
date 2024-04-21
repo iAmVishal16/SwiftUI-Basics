@@ -11,6 +11,7 @@
 		D34674802BD2CCE200D967E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346747F2BD2CCE200D967E2 /* ContentView.swift */; };
 		D34674822BD2CCE400D967E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34674812BD2CCE400D967E2 /* Assets.xcassets */; };
 		D34674852BD2CCE400D967E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34674842BD2CCE400D967E2 /* Preview Assets.xcassets */; };
+		D346748F2BD5214D00D967E2 /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346748E2BD5214D00D967E2 /* StacksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D346747F2BD2CCE200D967E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D34674812BD2CCE400D967E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34674842BD2CCE400D967E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D346748E2BD5214D00D967E2 /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D346747C2BD2CCE200D967E2 /* SwiftUI-Basics */ = {
 			isa = PBXGroup;
 			children = (
+				D34674902BD5215800D967E2 /* Topics */,
 				D346747D2BD2CCE200D967E2 /* SwiftUI_BasicsApp.swift */,
 				D346747F2BD2CCE200D967E2 /* ContentView.swift */,
 				D34674812BD2CCE400D967E2 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D34674842BD2CCE400D967E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D34674902BD5215800D967E2 /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				D346748E2BD5214D00D967E2 /* StacksView.swift */,
+			);
+			path = Topics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34674802BD2CCE200D967E2 /* ContentView.swift in Sources */,
+				D346748F2BD5214D00D967E2 /* StacksView.swift in Sources */,
 				D346747E2BD2CCE200D967E2 /* SwiftUI_BasicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = H5N428TQC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = H5N428TQC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
