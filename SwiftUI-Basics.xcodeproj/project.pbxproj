@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30ABC452BDD64EB000B0644 /* BuiltInViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30ABC442BDD64EB000B0644 /* BuiltInViews.swift */; };
+		D30ABC482BDD667C000B0644 /* Jersey25-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D30ABC472BDD667C000B0644 /* Jersey25-Regular.ttf */; };
 		D346747E2BD2CCE200D967E2 /* SwiftUI_BasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346747D2BD2CCE200D967E2 /* SwiftUI_BasicsApp.swift */; };
 		D34674802BD2CCE200D967E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346747F2BD2CCE200D967E2 /* ContentView.swift */; };
 		D34674822BD2CCE400D967E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34674812BD2CCE400D967E2 /* Assets.xcassets */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D30ABC442BDD64EB000B0644 /* BuiltInViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInViews.swift; sourceTree = "<group>"; };
+		D30ABC472BDD667C000B0644 /* Jersey25-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jersey25-Regular.ttf"; sourceTree = "<group>"; };
+		D30ABC492BDD669D000B0644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D346747A2BD2CCE200D967E2 /* SwiftUI-Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D346747D2BD2CCE200D967E2 /* SwiftUI_BasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicsApp.swift; sourceTree = "<group>"; };
 		D346747F2BD2CCE200D967E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D30ABC462BDD6658000B0644 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D30ABC472BDD667C000B0644 /* Jersey25-Regular.ttf */,
+				D34674812BD2CCE400D967E2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D34674712BD2CCE200D967E2 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +67,11 @@
 		D346747C2BD2CCE200D967E2 /* SwiftUI-Basics */ = {
 			isa = PBXGroup;
 			children = (
+				D30ABC492BDD669D000B0644 /* Info.plist */,
 				D34674902BD5215800D967E2 /* Topics */,
 				D346747D2BD2CCE200D967E2 /* SwiftUI_BasicsApp.swift */,
 				D346747F2BD2CCE200D967E2 /* ContentView.swift */,
-				D34674812BD2CCE400D967E2 /* Assets.xcassets */,
+				D30ABC462BDD6658000B0644 /* Resources */,
 				D34674832BD2CCE400D967E2 /* Preview Content */,
 			);
 			path = "SwiftUI-Basics";
@@ -74,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				D346748E2BD5214D00D967E2 /* StacksView.swift */,
+				D30ABC442BDD64EB000B0644 /* BuiltInViews.swift */,
 			);
 			path = Topics;
 			sourceTree = "<group>";
@@ -136,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30ABC482BDD667C000B0644 /* Jersey25-Regular.ttf in Resources */,
 				D34674852BD2CCE400D967E2 /* Preview Assets.xcassets in Resources */,
 				D34674822BD2CCE400D967E2 /* Assets.xcassets in Resources */,
 			);
@@ -150,6 +167,7 @@
 			files = (
 				D34674802BD2CCE200D967E2 /* ContentView.swift in Sources */,
 				D346748F2BD5214D00D967E2 /* StacksView.swift in Sources */,
+				D30ABC452BDD64EB000B0644 /* BuiltInViews.swift in Sources */,
 				D346747E2BD2CCE200D967E2 /* SwiftUI_BasicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +305,7 @@
 				DEVELOPMENT_TEAM = H5N428TQC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Basics/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -317,6 +336,7 @@
 				DEVELOPMENT_TEAM = H5N428TQC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Basics/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
