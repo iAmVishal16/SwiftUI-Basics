@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct SwiftUI_BasicsApp: App {
+    
+    @AppStorage("isUserLoggedIn") var isUserLoggedIn = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isUserLoggedIn {
+                HomeView()
+                    .preferredColorScheme(.dark)
+            } else {
+                LoginView()
+            }
         }
     }
 }
